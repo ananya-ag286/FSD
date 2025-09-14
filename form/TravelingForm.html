@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        /* text-align: center; */
+        .form-box{
+            border: 2px solid black;
+            height: auto;
+            width: 30%;
+            margin: auto;
+            padding: 20px;
+        }
+    }
+</style>
+<body>
+    
+    <div class="form-box">
+        <h1>Travel Service</h1>
+        <br>
+        <br>
+        <br>
+        <form action="/action.php">
+            <label> Name:
+                <input type="text" placeholder="Enter your first name">
+                <input type="text" placeholder="Enter your surname">
+            </label>
+            <br>
+            <br>
+            <label> Email:
+                <input type="text" placeholder="Enter Email">
+            </label>
+            <br>
+            <br>
+            <label> Phone No.:
+                <input type="text" placeholder="Enter Phone No.">
+            </label>
+            <br>
+            <br>
+            <label> Subject:
+                <input type="text" placeholder="Enter Subject">
+            </label>
+            <br>
+            <br>
+            <textarea name="Query" cols="30" rows="10" placeholder="Enter your Query"></textarea>
+            <br>
+            <br>
+            <label for="108">Travel Mode:
+                <select name="branch" id="108">
+                    <option value="Bus">Bus</option>
+                    <option value="Car">Car</option>
+                    <option value="flight">Flight</option>
+                    <option value="train">Train</option>
+                </select>
+            <br>
+            <br>
+            <label>How to Contact<br>
+            <label for="101">
+            <input type="radio" name="contact" value="whatsapp" id="101">Whatsapp
+            <br>
+            </label>
+            <label for="102">
+                <input type="radio" name="contact" value="email" id="102">Email
+                <br>
+            </label>
+            </label>
+            <br>
+            <br>
+            <label>
+                <input type="submit" value="Submit">
+            </label>
+            <br>
+            <br>
+        </form>
+    </div>
+</body>
+</html>
